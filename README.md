@@ -24,6 +24,12 @@ npm run build
 npm run preview
 ```
 
+## Deployment
+
+The source lives on `master`. To publish the site, build the project and push
+the contents of `dist/` to the `gh-pages` branch. GitHub Pages serves that
+branch directly.
+
 ## Editing résumé content
 
 All personal/profile/resume content is centralized in:
